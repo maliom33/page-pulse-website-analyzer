@@ -1,16 +1,106 @@
-# React + Vite
+# 🚀 Page Pulse - Website Analyzer
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A full-stack Website Analyzer that analyzes any webpage and provides SEO and technical insights such as page title, HTTP status, response time, meta description, word count, H1 count, and missing image alt attributes.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Frontend (Vercel):**
+https://YOUR-VERCEL-URL.vercel.app
 
-## React Compiler
+**Backend (Render):**
+https://page-pulse-api-7izn.onrender.com
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📌 Features
 
-## Expanding the Oxlint configuration
+- Analyze any website URL
+- HTTP Status Detection
+- Response Time Measurement
+- Page Title Extraction
+- Meta Description Detection
+- H1 Tag Count
+- Word Count
+- Missing Image Alt Count
+- Input Validation
+- Responsive Modern UI
+- Real-time API Integration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🛠 Tech Stack
+
+### Frontend
+- React.js
+- Vite
+- Tailwind CSS
+- Axios
+
+### Backend
+- Flask
+- BeautifulSoup4
+- Requests
+- Flask-CORS
+- Gunicorn
+
+### Deployment
+- Vercel (Frontend)
+- Render (Backend)
+- GitHub
+
+## 📂 Project Structure
+
+```
+page-pulse-website-analyzer/
+│
+├── backend/
+│   ├── analyzer.py
+│   ├── app.py
+│   ├── routes.py
+│   ├── requirements.txt
+│   └── ...
+│
+├── src/
+├── public/
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## ⚙ Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/maliom33/page-pulse-website-analyzer.git
+cd page-pulse-website-analyzer
+```
+
+### Frontend
+
+```bash
+npm install
+npm run dev
+```
+
+### Backend
+
+```bash
+cd backend
+pip install -r requirements.txt
+python app.py
+```
+
+## 📷 Screenshots
+
+- Homepage
+- Website Analysis
+- Technical Details
+- Key Insights
+
+## 👨‍💻 Author
+
+**Om Devendra Mali**
+
+GitHub:
+https://github.com/maliom33
+
+---
+
+Built as part of the **Digital Heroes Internship Training Task**.
